@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Marketplace.Infrastructure.SecurityModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SecurityModelConnectionString" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="BusinessUnits" EntityType="Marketplace.Infrastructure.SecurityModel.BusinessUnit" />
+    <EntitySet Name="ClientApps" EntityType="Marketplace.Infrastructure.SecurityModel.ClientApp" />
+    <EntitySet Name="Permissions" EntityType="Marketplace.Infrastructure.SecurityModel.Permission" />
+    <EntitySet Name="UserAppTokens" EntityType="Marketplace.Infrastructure.SecurityModel.UserAppToken" />
+    <EntitySet Name="UserContacts" EntityType="Marketplace.Infrastructure.SecurityModel.UserContact" />
+    <EntitySet Name="UserGroups" EntityType="Marketplace.Infrastructure.SecurityModel.UserGroup" />
+    <EntitySet Name="Users" EntityType="Marketplace.Infrastructure.SecurityModel.User" />
+    <AssociationSet Name="FK_BusinessUnitBusinessUnit" Association="Marketplace.Infrastructure.SecurityModel.FK_BusinessUnitBusinessUnit">
+      <End Role="BusinessUnits" EntitySet="BusinessUnits" />
+      <End Role="BusinessUnits1" EntitySet="BusinessUnits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BusinessUnitUser" Association="Marketplace.Infrastructure.SecurityModel.FK_BusinessUnitUser">
+      <End Role="BusinessUnits" EntitySet="BusinessUnits" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClientAppUserAppToken" Association="Marketplace.Infrastructure.SecurityModel.FK_ClientAppUserAppToken">
+      <End Role="ClientApps" EntitySet="ClientApps" />
+      <End Role="UserAppTokens" EntitySet="UserAppTokens" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserUserAppToken" Association="Marketplace.Infrastructure.SecurityModel.FK_UserUserAppToken">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserAppTokens" EntitySet="UserAppTokens" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserUserContact" Association="Marketplace.Infrastructure.SecurityModel.FK_UserUserContact">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserContacts" EntitySet="UserContacts" />
+    </AssociationSet>
+    <AssociationSet Name="UserGroupPermission" Association="Marketplace.Infrastructure.SecurityModel.UserGroupPermission">
+      <End Role="Permissions" EntitySet="Permissions" />
+      <End Role="UserGroups" EntitySet="UserGroups" />
+    </AssociationSet>
+    <AssociationSet Name="UserUserGroup" Association="Marketplace.Infrastructure.SecurityModel.UserUserGroup">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserGroups" EntitySet="UserGroups" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BusinessUnit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="IsAdminUnit" Type="Boolean" Nullable="false" />
+    <Property Name="ParentId" Type="Int32" />
+    <Property Name="AuditInfo_ModifiedOn" Type="DateTime" Precision="3" />
+    <Property Name="AuditInfo_ModifiedBy" Type="Int32" />
+    <Property Name="AuditInfo_CreatedOn" Type="DateTime" Precision="3" />
+    <Property Name="AuditInfo_CreatedBy" Type="Int32" />
+    <NavigationProperty Name="BusinessUnits1" Relationship="Marketplace.Infrastructure.SecurityModel.FK_BusinessUnitBusinessUnit" FromRole="BusinessUnits" ToRole="BusinessUnits1" />
+    <NavigationProperty Name="BusinessUnit1" Relationship="Marketplace.Infrastructure.SecurityModel.FK_BusinessUnitBusinessUnit" FromRole="BusinessUnits1" ToRole="BusinessUnits" />
+    <NavigationProperty Name="Users" Relationship="Marketplace.Infrastructure.SecurityModel.FK_BusinessUnitUser" FromRole="BusinessUnits" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="ClientApp">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ClientToken" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TokenValidity" Type="Int32" Nullable="false" />
+    <Property Name="PersistentTokenValidity" Type="Int32" Nullable="false" />
+    <Property Name="RequestTimeOffset" Type="Int32" Nullable="false" />
+    <Property Name="AuditInfo_ModifiedOn" Type="DateTime" Precision="3" />
+    <Property Name="AuditInfo_ModifiedBy" Type="Int32" />
+    <Property Name="AuditInfo_CreatedOn" Type="DateTime" Precision="3" />
+    <Property Name="AuditInfo_CreatedBy" Type="Int32" />
+    <NavigationProperty Name="UserAppTokens" Relationship="Marketplace.Infrastructure.SecurityModel.FK_ClientAppUserAppToken" FromRole="ClientApps" ToRole="UserAppTokens" />
+  </EntityType>
+  <EntityType Name="Permission">
+    <Key>
+      <PropertyRef Name="TypeName" />
+      <PropertyRef Name="AccessMode" />
+    </Key>
+    <Property Name="TypeName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="AccessMode" Type="Int16" Nullable="false" />
+    <Property Name="AuditInfo_ModifiedOn" Type="DateTime" Precision="3" />
+    <Property Name="AuditInfo_ModifiedBy" Type="Int32" />
+    <Property Name="AuditInfo_CreatedOn" Type="DateTime" Precision="3" />
+    <Property Name="AuditInfo_CreatedBy" Type="Int32" />
+    <NavigationProperty Name="UserGroups" Relationship="Marketplace.Infrastructure.SecurityModel.UserGroupPermission" FromRole="Permissions" ToRole="UserGroups" />
+  </EntityType>
+  <EntityType Name="UserAppToken">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientAppId" Type="Int32" Nullable="false" />
+    <Property Name="Token" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TokenExpiration" Type="DateTime" Precision="3" />
+    <Property Name="AppUser_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ClientApp" Relationship="Marketplace.Infrastructure.SecurityModel.FK_ClientAppUserAppToken" FromRole="UserAppTokens" ToRole="ClientApps" />
+    <NavigationProperty Name="User" Relationship="Marketplace.Infrastructure.SecurityModel.FK_UserUserAppToken" FromRole="UserAppTokens" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="UserContact">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Tel" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="User" Relationship="Marketplace.Infrastructure.SecurityModel.FK_UserUserContact" FromRole="UserContacts" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="UserGroup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="344" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="IsAdminGroup" Type="Boolean" Nullable="false" />
+    <Property Name="AuditInfo_ModifiedOn" Type="DateTime" Precision="3" />
+    <Property Name="AuditInfo_ModifiedBy" Type="Int32" />
+    <Property Name="AuditInfo_CreatedOn" Type="DateTime" Precision="3" />
+    <Property Name="AuditInfo_CreatedBy" Type="Int32" />
+    <NavigationProperty Name="Permissions" Relationship="Marketplace.Infrastructure.SecurityModel.UserGroupPermission" FromRole="UserGroups" ToRole="Permissions" />
+    <NavigationProperty Name="Users" Relationship="Marketplace.Infrastructure.SecurityModel.UserUserGroup" FromRole="UserGroups" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Password" Type="String" MaxLength="88" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordSalt" Type="String" MaxLength="99" Unicode="true" FixedLength="false" />
+    <Property Name="LCID" Type="Int32" Nullable="false" />
+    <Property Name="BusinessUnitId" Type="Int32" />
+    <Property Name="AuditInfo_ModifiedOn" Type="DateTime" Precision="3" />
+    <Property Name="AuditInfo_ModifiedBy" Type="Int32" />
+    <Property Name="AuditInfo_CreatedOn" Type="DateTime" Precision="3" />
+    <Property Name="AuditInfo_CreatedBy" Type="Int32" />
+    <NavigationProperty Name="BusinessUnit" Relationship="Marketplace.Infrastructure.SecurityModel.FK_BusinessUnitUser" FromRole="Users" ToRole="BusinessUnits" />
+    <NavigationProperty Name="UserAppTokens" Relationship="Marketplace.Infrastructure.SecurityModel.FK_UserUserAppToken" FromRole="Users" ToRole="UserAppTokens" />
+    <NavigationProperty Name="UserContact" Relationship="Marketplace.Infrastructure.SecurityModel.FK_UserUserContact" FromRole="Users" ToRole="UserContacts" />
+    <NavigationProperty Name="UserGroups" Relationship="Marketplace.Infrastructure.SecurityModel.UserUserGroup" FromRole="Users" ToRole="UserGroups" />
+  </EntityType>
+  <Association Name="FK_BusinessUnitBusinessUnit">
+    <End Role="BusinessUnits" Type="Marketplace.Infrastructure.SecurityModel.BusinessUnit" Multiplicity="0..1" />
+    <End Role="BusinessUnits1" Type="Marketplace.Infrastructure.SecurityModel.BusinessUnit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BusinessUnits">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BusinessUnits1">
+        <PropertyRef Name="ParentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BusinessUnitUser">
+    <End Role="BusinessUnits" Type="Marketplace.Infrastructure.SecurityModel.BusinessUnit" Multiplicity="0..1" />
+    <End Role="Users" Type="Marketplace.Infrastructure.SecurityModel.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BusinessUnits">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="BusinessUnitId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClientAppUserAppToken">
+    <End Role="ClientApps" Type="Marketplace.Infrastructure.SecurityModel.ClientApp" Multiplicity="1" />
+    <End Role="UserAppTokens" Type="Marketplace.Infrastructure.SecurityModel.UserAppToken" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClientApps">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserAppTokens">
+        <PropertyRef Name="ClientAppId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserUserAppToken">
+    <End Role="Users" Type="Marketplace.Infrastructure.SecurityModel.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="UserAppTokens" Type="Marketplace.Infrastructure.SecurityModel.UserAppToken" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserAppTokens">
+        <PropertyRef Name="AppUser_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserUserContact">
+    <End Role="Users" Type="Marketplace.Infrastructure.SecurityModel.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="UserContacts" Type="Marketplace.Infrastructure.SecurityModel.UserContact" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserContacts">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserGroupPermission">
+    <End Role="Permissions" Type="Marketplace.Infrastructure.SecurityModel.Permission" Multiplicity="*" />
+    <End Role="UserGroups" Type="Marketplace.Infrastructure.SecurityModel.UserGroup" Multiplicity="*" />
+  </Association>
+  <Association Name="UserUserGroup">
+    <End Role="Users" Type="Marketplace.Infrastructure.SecurityModel.User" Multiplicity="*" />
+    <End Role="UserGroups" Type="Marketplace.Infrastructure.SecurityModel.UserGroup" Multiplicity="*" />
+  </Association>
+</Schema>

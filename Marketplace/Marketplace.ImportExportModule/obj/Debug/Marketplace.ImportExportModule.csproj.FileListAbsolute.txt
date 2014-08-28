@@ -1,0 +1,4 @@
+D:\VS 2014\Marketplace\Marketplace.ImportExportModule\bin\Debug\Marketplace.ImportExportModule.dll
+D:\VS 2014\Marketplace\Marketplace.ImportExportModule\bin\Debug\Marketplace.ImportExportModule.pdb
+D:\VS 2014\Marketplace\Marketplace.ImportExportModule\obj\Debug\Marketplace.ImportExportModule.dll
+D:\VS 2014\Marketplace\Marketplace.ImportExportModule\obj\Debug\Marketplace.ImportExportModule.pdb

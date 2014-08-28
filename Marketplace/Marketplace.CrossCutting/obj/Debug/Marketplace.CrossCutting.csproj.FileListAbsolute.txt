@@ -1,0 +1,4 @@
+D:\VS 2014\Marketplace\Marketplace.CrossCutting\bin\Debug\Marketplace.CrossCutting.dll
+D:\VS 2014\Marketplace\Marketplace.CrossCutting\bin\Debug\Marketplace.CrossCutting.pdb
+D:\VS 2014\Marketplace\Marketplace.CrossCutting\obj\Debug\Marketplace.CrossCutting.dll
+D:\VS 2014\Marketplace\Marketplace.CrossCutting\obj\Debug\Marketplace.CrossCutting.pdb

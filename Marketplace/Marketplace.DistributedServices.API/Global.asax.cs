@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Reflection;
+using System.Web;
+using System.Web.Http;
+using System.Web.Mvc;
+using System.Web.Optimization;
+using System.Web.Routing;
+using Marketplace.Core.Adapter;
+using Marketplace.DistributedServices.API.Configuration;
+using Marketplace.DistributedServices.API.Security;
+using Marketplace.Infrastructure.SecurityContext.UnitOfWork;
+
+namespace Marketplace.DistributedServices.API
+{
+    // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
+    // visit http://go.microsoft.com/?LinkId=9394801
+
+    public class WebApiApplication : System.Web.HttpApplication
+    {
+        protected void Application_Start()
+        {
+            AreaRegistration.RegisterAllAreas();
+
+            MefConfig.RegisterMef();
+
+            WebApiConfig.Register(GlobalConfiguration.Configuration);
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            // add authentication handler for every request
+            GlobalConfiguration.Configuration.MessageHandlers.Add((AuthenticationMessageHandler)GlobalConfiguration.Configuration.DependencyResolver.GetService(typeof(AuthenticationMessageHandler)));
+
+            TypeAdapterFactory.SetCurrent(new AutomapperTypeAdapterFactory());
+        }
+    }
+}

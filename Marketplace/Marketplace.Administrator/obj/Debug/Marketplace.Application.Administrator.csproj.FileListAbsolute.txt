@@ -1,0 +1,14 @@
+D:\VS 2014\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.csprojResolveAssemblyReference.cache
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.dll
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.pdb
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.DTO.dll
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Domain.dll
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Core.dll
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.DTO.pdb
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Domain.pdb
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Core.pdb
+D:\VS 2014\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.dll
+D:\VS 2014\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.pdb
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\AutoMapper.Net4.dll
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\AutoMapper.dll
+D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\AutoMapper.xml

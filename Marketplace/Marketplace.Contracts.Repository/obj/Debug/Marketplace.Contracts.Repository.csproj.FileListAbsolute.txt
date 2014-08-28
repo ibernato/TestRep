@@ -1,0 +1,4 @@
+D:\VS 2014\Marketplace\Marketplace.Contracts.Repository\bin\Debug\Marketplace.Contracts.Repository.dll
+D:\VS 2014\Marketplace\Marketplace.Contracts.Repository\bin\Debug\Marketplace.Contracts.Repository.pdb
+D:\VS 2014\Marketplace\Marketplace.Contracts.Repository\obj\Debug\Marketplace.Contracts.Repository.dll
+D:\VS 2014\Marketplace\Marketplace.Contracts.Repository\obj\Debug\Marketplace.Contracts.Repository.pdb

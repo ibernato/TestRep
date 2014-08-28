@@ -1,0 +1,5 @@
+D:\VS 2014\Marketplace\Marketplace.Facade.Cache.CachingControl\bin\Debug\Marketplace.Facade.Cache.CachingControl.dll
+D:\VS 2014\Marketplace\Marketplace.Facade.Cache.CachingControl\bin\Debug\Marketplace.Facade.Cache.CachingControl.pdb
+D:\VS 2014\Marketplace\Marketplace.Facade.Cache.CachingControl\obj\Debug\Marketplace.Facade.Cache.CachingControl.dll
+D:\VS 2014\Marketplace\Marketplace.Facade.Cache.CachingControl\obj\Debug\Marketplace.Facade.Cache.CachingControl.pdb
+D:\VS 2014\Marketplace\Marketplace.Facade.Cache.CachingControl\obj\Debug\Marketplace.Facade.Cache.CachingControl.csprojResolveAssemblyReference.cache

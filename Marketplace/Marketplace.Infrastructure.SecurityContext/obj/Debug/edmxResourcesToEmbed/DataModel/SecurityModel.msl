@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MarketplaceInfrastructureSecurityModelStoreContainer" CdmEntityContainer="SecurityModelConnectionString">
+    <EntitySetMapping Name="BusinessUnits">
+      <EntityTypeMapping TypeName="Marketplace.Infrastructure.SecurityModel.BusinessUnit">
+        <MappingFragment StoreEntitySet="BusinessUnits">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsAdminUnit" ColumnName="IsAdminUnit" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="AuditInfo_ModifiedOn" ColumnName="AuditInfo_ModifiedOn" />
+          <ScalarProperty Name="AuditInfo_ModifiedBy" ColumnName="AuditInfo_ModifiedBy" />
+          <ScalarProperty Name="AuditInfo_CreatedOn" ColumnName="AuditInfo_CreatedOn" />
+          <ScalarProperty Name="AuditInfo_CreatedBy" ColumnName="AuditInfo_CreatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientApps">
+      <EntityTypeMapping TypeName="Marketplace.Infrastructure.SecurityModel.ClientApp">
+        <MappingFragment StoreEntitySet="ClientApps">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ClientToken" ColumnName="ClientToken" />
+          <ScalarProperty Name="TokenValidity" ColumnName="TokenValidity" />
+          <ScalarProperty Name="PersistentTokenValidity" ColumnName="PersistentTokenValidity" />
+          <ScalarProperty Name="RequestTimeOffset" ColumnName="RequestTimeOffset" />
+          <ScalarProperty Name="AuditInfo_ModifiedOn" ColumnName="AuditInfo_ModifiedOn" />
+          <ScalarProperty Name="AuditInfo_ModifiedBy" ColumnName="AuditInfo_ModifiedBy" />
+          <ScalarProperty Name="AuditInfo_CreatedOn" ColumnName="AuditInfo_CreatedOn" />
+          <ScalarProperty Name="AuditInfo_CreatedBy" ColumnName="AuditInfo_CreatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Permissions">
+      <EntityTypeMapping TypeName="Marketplace.Infrastructure.SecurityModel.Permission">
+        <MappingFragment StoreEntitySet="Permissions">
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="AccessMode" ColumnName="AccessMode" />
+          <ScalarProperty Name="AuditInfo_ModifiedOn" ColumnName="AuditInfo_ModifiedOn" />
+          <ScalarProperty Name="AuditInfo_ModifiedBy" ColumnName="AuditInfo_ModifiedBy" />
+          <ScalarProperty Name="AuditInfo_CreatedOn" ColumnName="AuditInfo_CreatedOn" />
+          <ScalarProperty Name="AuditInfo_CreatedBy" ColumnName="AuditInfo_CreatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserAppTokens">
+      <EntityTypeMapping TypeName="Marketplace.Infrastructure.SecurityModel.UserAppToken">
+        <MappingFragment StoreEntitySet="UserAppTokens">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientAppId" ColumnName="ClientAppId" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="TokenExpiration" ColumnName="TokenExpiration" />
+          <ScalarProperty Name="AppUser_Id" ColumnName="AppUser_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserContacts">
+      <EntityTypeMapping TypeName="Marketplace.Infrastructure.SecurityModel.UserContact">
+        <MappingFragment StoreEntitySet="UserContacts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserGroups">
+      <EntityTypeMapping TypeName="Marketplace.Infrastructure.SecurityModel.UserGroup">
+        <MappingFragment StoreEntitySet="UserGroups">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsAdminGroup" ColumnName="IsAdminGroup" />
+          <ScalarProperty Name="AuditInfo_ModifiedOn" ColumnName="AuditInfo_ModifiedOn" />
+          <ScalarProperty Name="AuditInfo_ModifiedBy" ColumnName="AuditInfo_ModifiedBy" />
+          <ScalarProperty Name="AuditInfo_CreatedOn" ColumnName="AuditInfo_CreatedOn" />
+          <ScalarProperty Name="AuditInfo_CreatedBy" ColumnName="AuditInfo_CreatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Marketplace.Infrastructure.SecurityModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+          <ScalarProperty Name="LCID" ColumnName="LCID" />
+          <ScalarProperty Name="BusinessUnitId" ColumnName="BusinessUnitId" />
+          <ScalarProperty Name="AuditInfo_ModifiedOn" ColumnName="AuditInfo_ModifiedOn" />
+          <ScalarProperty Name="AuditInfo_ModifiedBy" ColumnName="AuditInfo_ModifiedBy" />
+          <ScalarProperty Name="AuditInfo_CreatedOn" ColumnName="AuditInfo_CreatedOn" />
+          <ScalarProperty Name="AuditInfo_CreatedBy" ColumnName="AuditInfo_CreatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UserGroupPermission" TypeName="Marketplace.Infrastructure.SecurityModel.UserGroupPermission" StoreEntitySet="UserGroupPermission">
+      <EndProperty Name="Permissions">
+        <ScalarProperty Name="TypeName" ColumnName="Permissions_TypeName" />
+        <ScalarProperty Name="AccessMode" ColumnName="Permissions_AccessMode" />
+      </EndProperty>
+      <EndProperty Name="UserGroups">
+        <ScalarProperty Name="Id" ColumnName="UserGroups_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UserUserGroup" TypeName="Marketplace.Infrastructure.SecurityModel.UserUserGroup" StoreEntitySet="UserUserGroup">
+      <EndProperty Name="Users">
+        <ScalarProperty Name="Id" ColumnName="Users_Id" />
+      </EndProperty>
+      <EndProperty Name="UserGroups">
+        <ScalarProperty Name="Id" ColumnName="UserGroups_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

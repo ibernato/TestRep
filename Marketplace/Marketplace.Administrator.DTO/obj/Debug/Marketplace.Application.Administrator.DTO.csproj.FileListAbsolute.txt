@@ -1,0 +1,4 @@
+D:\VS 2014\Marketplace\Marketplace.Administrator.DTO\bin\Debug\Marketplace.Application.Administrator.DTO.dll
+D:\VS 2014\Marketplace\Marketplace.Administrator.DTO\bin\Debug\Marketplace.Application.Administrator.DTO.pdb
+D:\VS 2014\Marketplace\Marketplace.Administrator.DTO\obj\Debug\Marketplace.Application.Administrator.DTO.dll
+D:\VS 2014\Marketplace\Marketplace.Administrator.DTO\obj\Debug\Marketplace.Application.Administrator.DTO.pdb

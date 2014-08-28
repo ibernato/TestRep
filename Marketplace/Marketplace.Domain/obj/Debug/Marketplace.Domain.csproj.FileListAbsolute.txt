@@ -1,0 +1,10 @@
+D:\VS 2014\Marketplace\Marketplace.Domain\obj\Debug\Marketplace.Domain.csprojResolveAssemblyReference.cache
+D:\VS 2014\Marketplace\Marketplace.Domain\bin\Debug\Marketplace.Domain.dll
+D:\VS 2014\Marketplace\Marketplace.Domain\bin\Debug\Marketplace.Domain.pdb
+D:\VS 2014\Marketplace\Marketplace.Domain\bin\Debug\Marketplace.Core.dll
+D:\VS 2014\Marketplace\Marketplace.Domain\bin\Debug\Marketplace.Core.pdb
+D:\VS 2014\Marketplace\Marketplace.Domain\obj\Debug\Marketplace.Domain.dll
+D:\VS 2014\Marketplace\Marketplace.Domain\obj\Debug\Marketplace.Domain.pdb
+D:\VS 2014\Marketplace\Marketplace.Domain\bin\Debug\AutoMapper.Net4.dll
+D:\VS 2014\Marketplace\Marketplace.Domain\bin\Debug\AutoMapper.dll
+D:\VS 2014\Marketplace\Marketplace.Domain\bin\Debug\AutoMapper.xml

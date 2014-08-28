@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Marketplace.Infrastructure.SecurityModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MarketplaceInfrastructureSecurityModelStoreContainer">
+    <EntitySet Name="BusinessUnits" EntityType="Marketplace.Infrastructure.SecurityModel.Store.BusinessUnits" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ClientApps" EntityType="Marketplace.Infrastructure.SecurityModel.Store.ClientApps" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Permissions" EntityType="Marketplace.Infrastructure.SecurityModel.Store.Permissions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserAppTokens" EntityType="Marketplace.Infrastructure.SecurityModel.Store.UserAppTokens" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserContacts" EntityType="Marketplace.Infrastructure.SecurityModel.Store.UserContacts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserGroupPermission" EntityType="Marketplace.Infrastructure.SecurityModel.Store.UserGroupPermission" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserGroups" EntityType="Marketplace.Infrastructure.SecurityModel.Store.UserGroups" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="Marketplace.Infrastructure.SecurityModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserUserGroup" EntityType="Marketplace.Infrastructure.SecurityModel.Store.UserUserGroup" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_BusinessUnitBusinessUnit" Association="Marketplace.Infrastructure.SecurityModel.Store.FK_BusinessUnitBusinessUnit">
+      <End Role="BusinessUnits" EntitySet="BusinessUnits" />
+      <End Role="BusinessUnits1" EntitySet="BusinessUnits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BusinessUnitUser" Association="Marketplace.Infrastructure.SecurityModel.Store.FK_BusinessUnitUser">
+      <End Role="BusinessUnits" EntitySet="BusinessUnits" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClientAppUserAppToken" Association="Marketplace.Infrastructure.SecurityModel.Store.FK_ClientAppUserAppToken">
+      <End Role="ClientApps" EntitySet="ClientApps" />
+      <End Role="UserAppTokens" EntitySet="UserAppTokens" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserGroupPermission_Permission" Association="Marketplace.Infrastructure.SecurityModel.Store.FK_UserGroupPermission_Permission">
+      <End Role="Permissions" EntitySet="Permissions" />
+      <End Role="UserGroupPermission" EntitySet="UserGroupPermission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserGroupPermission_UserGroup" Association="Marketplace.Infrastructure.SecurityModel.Store.FK_UserGroupPermission_UserGroup">
+      <End Role="UserGroups" EntitySet="UserGroups" />
+      <End Role="UserGroupPermission" EntitySet="UserGroupPermission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserUserAppToken" Association="Marketplace.Infrastructure.SecurityModel.Store.FK_UserUserAppToken">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserAppTokens" EntitySet="UserAppTokens" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserUserContact" Association="Marketplace.Infrastructure.SecurityModel.Store.FK_UserUserContact">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserContacts" EntitySet="UserContacts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserUserGroup_User" Association="Marketplace.Infrastructure.SecurityModel.Store.FK_UserUserGroup_User">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserUserGroup" EntitySet="UserUserGroup" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserUserGroup_UserGroup" Association="Marketplace.Infrastructure.SecurityModel.Store.FK_UserUserGroup_UserGroup">
+      <End Role="UserGroups" EntitySet="UserGroups" />
+      <End Role="UserUserGroup" EntitySet="UserUserGroup" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BusinessUnits">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="IsAdminUnit" Type="bit" Nullable="false" />
+    <Property Name="ParentId" Type="int" />
+    <Property Name="AuditInfo_ModifiedOn" Type="datetime" />
+    <Property Name="AuditInfo_ModifiedBy" Type="int" />
+    <Property Name="AuditInfo_CreatedOn" Type="datetime" />
+    <Property Name="AuditInfo_CreatedBy" Type="int" />
+  </EntityType>
+  <EntityType Name="ClientApps">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ClientToken" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TokenValidity" Type="int" Nullable="false" />
+    <Property Name="PersistentTokenValidity" Type="int" Nullable="false" />
+    <Property Name="RequestTimeOffset" Type="int" Nullable="false" />
+    <Property Name="AuditInfo_ModifiedOn" Type="datetime" />
+    <Property Name="AuditInfo_ModifiedBy" Type="int" />
+    <Property Name="AuditInfo_CreatedOn" Type="datetime" />
+    <Property Name="AuditInfo_CreatedBy" Type="int" />
+  </EntityType>
+  <EntityType Name="Permissions">
+    <Key>
+      <PropertyRef Name="TypeName" />
+      <PropertyRef Name="AccessMode" />
+    </Key>
+    <Property Name="TypeName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AccessMode" Type="smallint" Nullable="false" />
+    <Property Name="AuditInfo_ModifiedOn" Type="datetime" />
+    <Property Name="AuditInfo_ModifiedBy" Type="int" />
+    <Property Name="AuditInfo_CreatedOn" Type="datetime" />
+    <Property Name="AuditInfo_CreatedBy" Type="int" />
+  </EntityType>
+  <EntityType Name="UserAppTokens">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClientAppId" Type="int" Nullable="false" />
+    <Property Name="Token" Type="nvarchar(max)" />
+    <Property Name="TokenExpiration" Type="datetime" />
+    <Property Name="AppUser_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserContacts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Tel" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserGroupPermission">
+    <Key>
+      <PropertyRef Name="Permissions_TypeName" />
+      <PropertyRef Name="Permissions_AccessMode" />
+      <PropertyRef Name="UserGroups_Id" />
+    </Key>
+    <Property Name="Permissions_TypeName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Permissions_AccessMode" Type="smallint" Nullable="false" />
+    <Property Name="UserGroups_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserGroups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="344" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsAdminGroup" Type="bit" Nullable="false" />
+    <Property Name="AuditInfo_ModifiedOn" Type="datetime" />
+    <Property Name="AuditInfo_ModifiedBy" Type="int" />
+    <Property Name="AuditInfo_CreatedOn" Type="datetime" />
+    <Property Name="AuditInfo_CreatedBy" Type="int" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Password" Type="nvarchar" MaxLength="88" />
+    <Property Name="PasswordSalt" Type="nvarchar" MaxLength="99" />
+    <Property Name="LCID" Type="int" Nullable="false" />
+    <Property Name="BusinessUnitId" Type="int" />
+    <Property Name="AuditInfo_ModifiedOn" Type="datetime" />
+    <Property Name="AuditInfo_ModifiedBy" Type="int" />
+    <Property Name="AuditInfo_CreatedOn" Type="datetime" />
+    <Property Name="AuditInfo_CreatedBy" Type="int" />
+  </EntityType>
+  <EntityType Name="UserUserGroup">
+    <Key>
+      <PropertyRef Name="Users_Id" />
+      <PropertyRef Name="UserGroups_Id" />
+    </Key>
+    <Property Name="Users_Id" Type="int" Nullable="false" />
+    <Property Name="UserGroups_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_BusinessUnitBusinessUnit">
+    <End Role="BusinessUnits" Type="Marketplace.Infrastructure.SecurityModel.Store.BusinessUnits" Multiplicity="0..1" />
+    <End Role="BusinessUnits1" Type="Marketplace.Infrastructure.SecurityModel.Store.BusinessUnits" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BusinessUnits">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BusinessUnits1">
+        <PropertyRef Name="ParentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BusinessUnitUser">
+    <End Role="BusinessUnits" Type="Marketplace.Infrastructure.SecurityModel.Store.BusinessUnits" Multiplicity="0..1" />
+    <End Role="Users" Type="Marketplace.Infrastructure.SecurityModel.Store.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BusinessUnits">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="BusinessUnitId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClientAppUserAppToken">
+    <End Role="ClientApps" Type="Marketplace.Infrastructure.SecurityModel.Store.ClientApps" Multiplicity="1" />
+    <End Role="UserAppTokens" Type="Marketplace.Infrastructure.SecurityModel.Store.UserAppTokens" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClientApps">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserAppTokens">
+        <PropertyRef Name="ClientAppId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserGroupPermission_Permission">
+    <End Role="Permissions" Type="Marketplace.Infrastructure.SecurityModel.Store.Permissions" Multiplicity="1" />
+    <End Role="UserGroupPermission" Type="Marketplace.Infrastructure.SecurityModel.Store.UserGroupPermission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Permissions">
+        <PropertyRef Name="TypeName" />
+        <PropertyRef Name="AccessMode" />
+      </Principal>
+      <Dependent Role="UserGroupPermission">
+        <PropertyRef Name="Permissions_TypeName" />
+        <PropertyRef Name="Permissions_AccessMode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserGroupPermission_UserGroup">
+    <End Role="UserGroups" Type="Marketplace.Infrastructure.SecurityModel.Store.UserGroups" Multiplicity="1" />
+    <End Role="UserGroupPermission" Type="Marketplace.Infrastructure.SecurityModel.Store.UserGroupPermission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserGroups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserGroupPermission">
+        <PropertyRef Name="UserGroups_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserUserAppToken">
+    <End Role="Users" Type="Marketplace.Infrastructure.SecurityModel.Store.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="UserAppTokens" Type="Marketplace.Infrastructure.SecurityModel.Store.UserAppTokens" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserAppTokens">
+        <PropertyRef Name="AppUser_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserUserContact">
+    <End Role="Users" Type="Marketplace.Infrastructure.SecurityModel.Store.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="UserContacts" Type="Marketplace.Infrastructure.SecurityModel.Store.UserContacts" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserContacts">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserUserGroup_User">
+    <End Role="Users" Type="Marketplace.Infrastructure.SecurityModel.Store.Users" Multiplicity="1" />
+    <End Role="UserUserGroup" Type="Marketplace.Infrastructure.SecurityModel.Store.UserUserGroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserUserGroup">
+        <PropertyRef Name="Users_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserUserGroup_UserGroup">
+    <End Role="UserGroups" Type="Marketplace.Infrastructure.SecurityModel.Store.UserGroups" Multiplicity="1" />
+    <End Role="UserUserGroup" Type="Marketplace.Infrastructure.SecurityModel.Store.UserUserGroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserGroups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserUserGroup">
+        <PropertyRef Name="UserGroups_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

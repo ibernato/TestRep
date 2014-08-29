@@ -23,7 +23,7 @@ namespace Marketplace.Security
 
         public virtual ICollection<Permission> Permissions { get; set; }
 
-        public virtual ICollection<Guid> Users { get; set; }
+        public virtual ICollection<User> Users { get; set; }
 
         #endregion
     }

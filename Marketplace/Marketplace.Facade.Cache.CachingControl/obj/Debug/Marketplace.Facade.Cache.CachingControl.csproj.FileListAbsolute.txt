@@ -3,3 +3,8 @@ D:\VS 2014\Marketplace\Marketplace.Facade.Cache.CachingControl\bin\Debug\Marketp
 D:\VS 2014\Marketplace\Marketplace.Facade.Cache.CachingControl\obj\Debug\Marketplace.Facade.Cache.CachingControl.dll
 D:\VS 2014\Marketplace\Marketplace.Facade.Cache.CachingControl\obj\Debug\Marketplace.Facade.Cache.CachingControl.pdb
 D:\VS 2014\Marketplace\Marketplace.Facade.Cache.CachingControl\obj\Debug\Marketplace.Facade.Cache.CachingControl.csprojResolveAssemblyReference.cache
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Facade.Cache.CachingControl\bin\Debug\Marketplace.Facade.Cache.CachingControl.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Facade.Cache.CachingControl\bin\Debug\Marketplace.Facade.Cache.CachingControl.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Facade.Cache.CachingControl\obj\Debug\Marketplace.Facade.Cache.CachingControl.csprojResolveAssemblyReference.cache
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Facade.Cache.CachingControl\obj\Debug\Marketplace.Facade.Cache.CachingControl.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Facade.Cache.CachingControl\obj\Debug\Marketplace.Facade.Cache.CachingControl.pdb

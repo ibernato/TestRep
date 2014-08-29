@@ -41,29 +41,5 @@ namespace Marketplace.Security.Authentication
         /// <param name="usePersistentToken">True if persistent token should be used, false otherwise.</param>
         /// <returns>Issued token for the user.</returns>
         string IssueUserToken(string username, string clientAppName, bool usePersistentToken);
-
-
-        /// <summary>
-        /// Invalidates token for the user with the given id.
-        /// </summary>
-        /// <param name="userId">user's identification</param>
-        /// <param name="clientAppName">Id of the client application the user is using.</param>
-        void InvalidateUserToken(Guid userId, Guid clientAppId);
-
-
-        /// <summary>
-        /// Gets token for the user with the given id. Returns empty string if it doesn't exist or is not valid.
-        /// </summary>
-        /// <param name="userId">user's identification</param>
-        /// <param name="clientAppName">Id of the client application the user is using.</param>
-        /// <returns>user's token</returns>
-        string GetUserToken(Guid userId, Guid clientAppId);
-
-
-        /// <summary>
-        /// Gets token expiration date of the currently signed-in user.
-        /// </summary>
-        DateTime GetUserTokenExpiration();
-
     }
 }

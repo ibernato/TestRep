@@ -29,3 +29,39 @@ D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Auto
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\GraphDiff.dll
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.InitialSecurityContext.resources
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csproj.GenerateResource.Cache
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.Net4.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Core.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.Repository.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Security.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Convention.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Hosting.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Runtime.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Core.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.Repository.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Security.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.AttributedModel.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Convention.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Hosting.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Runtime.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.TypedParts.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csprojResolveAssemblyReference.cache
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.InitialSecurityContext.resources
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csproj.GenerateResource.Cache
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.VersioningAndAudit.resources
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.RemovedVersioningAndAuditFromValueObjects.resources
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.dll.config
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\RefactorThis.GraphDiff.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\RefactorThis.GraphDiff.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.RemovedVersioningAndAuditFromValueObjects2.resources

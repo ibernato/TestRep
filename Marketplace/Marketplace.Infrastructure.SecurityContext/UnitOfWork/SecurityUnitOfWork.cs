@@ -150,13 +150,19 @@ namespace Marketplace.Infrastructure.SecurityContext.UnitOfWork
             : base("name=SecurityModelConnectionString")
         {
             Database.SetInitializer<SecurityUnitOfWork>(null);
+
+            this.Configuration.ValidateOnSaveEnabled = false;
+            this.Configuration.ProxyCreationEnabled = false;
+            this.Configuration.LazyLoadingEnabled = false;
         }
 
         #region DbContext Overrides
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.ComplexType<Auditing>();
+            modelBuilder.ComplexType<AuditingInfo>();
+            modelBuilder.ComplexType<Versioning>();
+            modelBuilder.ComplexType<ObjectState>();
 
             //Remove unused conventions
             //modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();

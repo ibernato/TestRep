@@ -9,11 +9,14 @@ using Marketplace.Infrastructure.SecurityContext.UnitOfWork;
 using Marketplace.Security;
 using Marketplace.Security.Contracts;
 using Marketplace.Core;
+using System.Data.Entity;
+using Marketplace.Infrastructure.SecurityContext.Entities;
+using RefactorThis.GraphDiff;
 
 namespace Marketplace.Infrastructure.SecurityContext.Repositories
 {
     [Export(typeof(IClientAppRepository))]
-    public class ClientAppRepository : Repository<ClientApp, Marketplace.Infrastructure.SecurityContext.Entities.ClientAppModel, Guid>, IClientAppRepository
+    public class ClientAppRepository : Repository<ClientApp, ClientAppModel, Guid>, IClientAppRepository
     {
         #region Constructor
 
@@ -26,9 +29,20 @@ namespace Marketplace.Infrastructure.SecurityContext.Repositories
 
         #endregion
 
-        public ClientApp GetClientAppByName(string clientAppName)
+        #region Overrides
+
+        private DbContext Context
         {
-            return base.AllMatching(c => c.Name == clientAppName).SingleOrDefault().As<ClientApp>();
+            get
+            {
+                return (base.UnitOfWork as DbContext);
+            }
+        }
+
+        public override void Update(ClientApp item)
+        {
+            Context.UpdateGraph<ClientAppModel>(item.As<ClientAppModel>().ApplyVersion().ApplyModifiedAudit().ChangeObjectState(), 
+                m => m.AssociatedCollection(c => c.UserAppTokens));
         }
 
         public override ClientApp Get(Guid key)
@@ -40,5 +54,16 @@ namespace Marketplace.Infrastructure.SecurityContext.Repositories
         {
             get { return new List<string>(); }
         }
+
+        #endregion
+
+        #region IClientAppRepository
+
+        public ClientApp GetClientAppByName(string clientAppName)
+        {
+            return base.AllMatching(c => c.Name == clientAppName).SingleOrDefault().As<ClientApp>();
+        }
+
+        #endregion
     }
 }

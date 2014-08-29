@@ -8,46 +8,29 @@ using Marketplace.Core.Logging;
 
 namespace Marketplace.Infrastructure.SecurityContext.Entities
 {
-    public partial class BusinessUnitModel
+    public class BusinessUnitModel : ICreatedAuditing, IModifiedAuditing, IVersioning, IObjectState
     {
-        #region Constructor
-
         public BusinessUnitModel()
         {
             Users = new HashSet<UserModel>();
             ChildUnits = new HashSet<BusinessUnitModel>();
         }
 
-        #endregion
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public bool IsAdminUnit { get; set; }
 
-        #region Primitive Properties
+        public Nullable<Guid> ParentId { get; set; }
+        public BusinessUnitModel BusinessUnit { get; set; }
 
-        public virtual Guid Id { get; set; }
+        public ICollection<BusinessUnitModel> ChildUnits { get; set; }
+        public ICollection<UserModel> Users { get; set; }
 
-        public virtual string Name { get; set; }
 
-        public virtual string Description { get; set; }
-
-        public virtual bool IsAdminUnit { get; set; }
-
-        public virtual Nullable<Guid> ParentId { get; set; }
-
-        #endregion
-
-        #region Complex Properties
-
-        public virtual Auditing AuditInfo { get; set; }
-
-        #endregion
-
-        #region Navigation Properties
-
-        public virtual ICollection<BusinessUnitModel> ChildUnits { get; set; }
-
-        public virtual ICollection<UserModel> Users { get; set; }
-
-        #endregion
-
-        public virtual BusinessUnitModel BusinessUnit { get; set; }
+        public ObjectState ObjectState { get; set; }
+        public Versioning Version { get; set; }
+        public AuditingInfo Created { get; set; }
+        public AuditingInfo Modified { get; set; }
     }
 }

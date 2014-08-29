@@ -17,3 +17,22 @@ D:\VS 2014\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Runtime
 D:\VS 2014\Marketplace\Marketplace.Security\bin\Debug\System.Composition.TypedParts.xml
 D:\VS 2014\Marketplace\Marketplace.Security\bin\Debug\AutoMapper.dll
 D:\VS 2014\Marketplace\Marketplace.Security\bin\Debug\AutoMapper.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\Marketplace.Security.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\Marketplace.Security.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\Marketplace.Core.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Convention.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Hosting.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Runtime.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\AutoMapper.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\Marketplace.Core.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.AttributedModel.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Convention.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Hosting.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Runtime.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.TypedParts.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\bin\Debug\AutoMapper.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\obj\Debug\Marketplace.Security.csprojResolveAssemblyReference.cache
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\obj\Debug\Marketplace.Security.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Security\obj\Debug\Marketplace.Security.pdb

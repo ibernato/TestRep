@@ -7,40 +7,26 @@ using Marketplace.Core.Logging;
 
 namespace Marketplace.Infrastructure.SecurityContext.Entities
 {
-    public partial class UserModel
+    public class UserModel : ICreatedAuditing, IModifiedAuditing, IObjectState, IVersioning
     {
-        #region Primitive Properties
+        public Guid Id { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string PasswordSalt { get; set; }
+        public int LCID { get; set; }
 
-        public virtual Guid Id { get; set; }
+        
+        public Nullable<Guid> BusinessUnitId { get; set; }
+        public BusinessUnitModel BusinessUnit { get; set; }
 
-        public virtual string Username { get; set; }
+        public ContactModel Contact { get; set; }
+        public ICollection<UserGroupModel> UserGroups { get; set; }
+        public ICollection<UserAppTokenModel> UserAppTokens { get; set; }
 
-        public virtual string Password { get; set; }
 
-        public virtual string PasswordSalt { get; set; }
-
-        public virtual int LCID { get; set; }
-
-        public virtual Nullable<Guid> BusinessUnitId { get; set; }
-
-        #endregion
-
-        #region Complex Properties
-
-        public virtual Auditing AuditInfo { get; set; }
-
-        #endregion
-
-        #region Navigation Properties
-
-        public virtual BusinessUnitModel BusinessUnit { get; set; }
-
-        public virtual ICollection<UserGroupModel> UserGroups { get; set; }
-
-        public virtual ICollection<UserAppTokenModel> UserAppTokens { get; set; }
-
-        public virtual ContactModel Contact { get; set; }
-
-        #endregion
+        public AuditingInfo Created { get; set; }
+        public AuditingInfo Modified { get; set; }
+        public ObjectState ObjectState { get; set; }
+        public Versioning Version { get; set; }
     }
 }

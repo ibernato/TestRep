@@ -26,6 +26,7 @@ D:\VS 2014\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Co
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Hosting.xml
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Runtime.xml
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.TypedParts.xml
+<<<<<<< HEAD
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Infrastructure.Repository.dll.config
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Infrastructure.Repository.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Infrastructure.Repository.pdb
@@ -54,3 +55,33 @@ E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\obj\Debug\Marketplace.Infrastructure.Repository.csprojResolveAssemblyReference.cache
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\obj\Debug\Marketplace.Infrastructure.Repository.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\obj\Debug\Marketplace.Infrastructure.Repository.pdb
+=======
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Infrastructure.Repository.dll.config
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Infrastructure.Repository.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Infrastructure.Repository.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\EntityFramework.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Core.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Domain.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Security.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Convention.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Hosting.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Runtime.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\AutoMapper.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Core.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Domain.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Security.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\EntityFramework.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.AttributedModel.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Convention.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Hosting.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Runtime.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.TypedParts.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\AutoMapper.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\obj\Debug\Marketplace.Infrastructure.Repository.csprojResolveAssemblyReference.cache
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\obj\Debug\Marketplace.Infrastructure.Repository.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.Repository\obj\Debug\Marketplace.Infrastructure.Repository.pdb
+>>>>>>> origin/Base

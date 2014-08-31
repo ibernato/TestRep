@@ -30,6 +30,7 @@ namespace Marketplace.Infrastructure.SecurityContext
             this.CreateMap<UserAppTokenModel, UserAppToken>();
             this.CreateMap<UserGroupModel, UserGroup>();
             this.CreateMap<ContactModel, Contact>();
+            this.CreateMap<UserGroupModel, Guid>().ConstructUsing(ugm => ugm.Id);
         }
 
         public override string ProfileName

@@ -9,7 +9,9 @@ using Marketplace.Infrastructure.SecurityContext.UnitOfWork;
 using Marketplace.Security;
 using Marketplace.Security.Contracts;
 using Marketplace.Core;
+using RefactorThis.GraphDiff;
 using Marketplace.Infrastructure.SecurityContext.Entities;
+using System.Data.Entity;
 
 namespace Marketplace.Infrastructure.SecurityContext.Repositories
 {
@@ -26,25 +28,22 @@ namespace Marketplace.Infrastructure.SecurityContext.Repositories
 
         #endregion
 
-        public override void Create(User item)
+        #region Overrides
+
+        private DbContext Context
         {
-            var modelItem = item.As<UserModel>();
-
-            modelItem.Contact.Id = modelItem.Id;
-
-            base.Create(modelItem);
+            get
+            {
+                return (base.UnitOfWork as DbContext);
+            }
         }
 
         public override void Update(User item)
         {
-            var modelItem = GetModel(item.Id);
-            base.Update(item.As<User, UserModel>(modelItem));
-        }
+            var model = Context.UpdateGraph<UserModel>(item.As<UserModel>().ApplyVersion().ApplyModifiedAudit().ChangeObjectState(),
+                u => u.AssociatedCollection(p => p.UserGroups).OwnedCollection(p => p.UserAppTokens).OwnedEntity(p => p.Contact));
 
-        public User GetUserByUsername(string userName)
-        {
-            var user = base.AllMatching(u => u.Username == userName).SingleOrDefault();
-            return user.As<User>();
+            Context.Entry(model).Property("Created").IsModified = false;
         }
 
         public override User Get(Guid key)
@@ -52,14 +51,21 @@ namespace Marketplace.Infrastructure.SecurityContext.Repositories
             return All().SingleOrDefault(bu => bu.Id == key).As<User>();
         }
         
-        internal UserModel GetModel(Guid key)
-        {
-            return All().SingleOrDefault(bu => bu.Id == key);
-        }
-
         internal override IEnumerable<string> Includes
         {
             get { return new List<string>() { "UserAppTokens", "Contact" }; }
         }
+
+        #endregion
+
+        #region IUserRepository
+
+        public User GetUserByUsername(string userName)
+        {
+            var user = base.AllMatching(u => u.Username == userName).SingleOrDefault();
+            return user.As<User>();
+        }
+
+        #endregion
     }
 }

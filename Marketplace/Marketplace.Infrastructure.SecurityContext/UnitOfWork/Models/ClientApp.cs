@@ -9,43 +9,26 @@ using Marketplace.Core.Logging;
 
 namespace Marketplace.Infrastructure.SecurityContext.Entities
 {
-    public partial class ClientAppModel
+    public class ClientAppModel : ICreatedAuditing, IModifiedAuditing, IVersioning, IObjectState
     {
-        #region Constructor
-
         public ClientAppModel()
         {
             UserAppTokens = new HashSet<UserAppTokenModel>();
         }
 
-        #endregion
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string ClientToken { get; set; }
+        public int TokenValidity { get; set; }
+        public int PersistentTokenValidity { get; set; }
+        public int RequestTimeOffset { get; set; }
+        
+        public ICollection<UserAppTokenModel> UserAppTokens { get; set; }
 
-        #region Primitive Properties
 
-        public virtual Guid Id { get; set; }
-
-        public virtual string Name { get; set; }
-
-        public virtual string ClientToken { get; set; }
-
-        public virtual int TokenValidity { get; set; }
-
-        public virtual int PersistentTokenValidity { get; set; }
-
-        public virtual int RequestTimeOffset { get; set; }
-
-        #endregion
-
-        #region Complex Properties
-
-        public virtual Auditing AuditInfo { get; set; }
-
-        #endregion
-
-        #region Navigation Properties
-
-        public virtual ICollection<UserAppTokenModel> UserAppTokens { get; set; }
-
-        #endregion
+        public AuditingInfo Created { get; set; }
+        public AuditingInfo Modified { get; set; }
+        public ObjectState ObjectState { get; set; }
+        public Versioning Version { get; set; }
     }
 }

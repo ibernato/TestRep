@@ -65,6 +65,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Persistance\AuditingExtensions.cs" />
+    <Compile Include="Persistance\AuditingInfo.cs" />
+    <Compile Include="Persistance\IAuditing.cs" />
+    <Compile Include="Persistance\ObjectStateExtensions.cs" />
+    <Compile Include="Persistance\IObjectState.cs" />
+    <Compile Include="Persistance\IVersioning.cs" />
+    <Compile Include="Persistance\ObjectState.cs" />
+    <Compile Include="Persistance\Versioning.cs" />
+    <Compile Include="Persistance\VersioningExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

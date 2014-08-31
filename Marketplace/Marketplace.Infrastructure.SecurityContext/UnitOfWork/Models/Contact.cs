@@ -6,24 +6,13 @@ using Marketplace.Core;
 
 namespace Marketplace.Infrastructure.SecurityContext.Entities
 {
-    public partial class ContactModel
+    public class ContactModel
     {
-        #region Primitive Properties
+        public Guid Id { get; set; }
+        public string Tel { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
 
-        public virtual Guid Id { get; set; }
-
-        public virtual string Tel { get; set; }
-
-        public virtual string Name { get; set; }
-
-        public virtual string Email { get; set; }
-
-        #endregion
-
-        #region Navigation Properties
-
-        public virtual UserModel User { get; set; }
-
-        #endregion
+        public UserModel User { get; set; }
     }
 }

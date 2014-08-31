@@ -9,9 +9,10 @@
     using Marketplace.Core.Logging;
     using Marketplace.Infrastructure.SecurityContext.UnitOfWork;
     using System.Data.Entity.Infrastructure;
+    using Marketplace.Infrastructure;
 
-    public abstract class Repository<TEntity, TModelEntity, TKey> : IRepository<TEntity, TKey> 
-        where TEntity : Entity, new()
+    public abstract class Repository<TEntity, TModelEntity, TKey> : IRepository<TEntity, TKey>
+        where TEntity : Entity
         where TModelEntity : class, new()
     {
         #region Members
@@ -46,6 +47,10 @@
         {
             if (item != (TModelEntity)null)
             {
+                item.ApplyCreatedAudit();
+                item.ApplyVersion();
+                item.ChangeObjectState(State.Active);
+
                 _UnitOfWork.CreateSet<TModelEntity>().Add(item);
             }
         }
@@ -62,9 +67,21 @@
 
             if (item != (TEntity)null)
             {
+                item.ApplyModifiedAudit();
+                item.ApplyVersion();
+
                 _UnitOfWork.Attach(item);
 
-                _UnitOfWork.CreateSet<TModelEntity>().Remove(item);
+                if (item is IObjectState)
+                {
+                    item.ChangeObjectState(State.Active);
+
+                    _UnitOfWork.SetModified(item.As<TModelEntity>());
+                }
+                else
+                {
+                    _UnitOfWork.CreateSet<TModelEntity>().Remove(item);
+                }
             }
         }
 
@@ -80,6 +97,9 @@
         {
             if (item != (TModelEntity)null)
             {
+                item.ApplyModifiedAudit();
+                item.ApplyVersion();
+
                 _UnitOfWork.SetModified(item);
             }
         }

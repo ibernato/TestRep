@@ -46,8 +46,8 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="GraphDiff">
-      <HintPath>..\packages\GraphDiff.1.2\lib\net40\GraphDiff.dll</HintPath>
+    <Reference Include="RefactorThis.GraphDiff">
+      <HintPath>..\packages\RefactorThis.GraphDiff.2.0.1\lib\RefactorThis.GraphDiff.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -81,7 +81,18 @@
     <Compile Include="Migrations\201408281452112_InitialSecurityContext.Designer.cs">
       <DependentUpon>201408281452112_InitialSecurityContext.cs</DependentUpon>
     </Compile>
-    <Compile Include="UnitOfWork\Models\ComplexTypes\Auditing.cs" />
+    <Compile Include="Migrations\201408291011186_VersioningAndAudit.cs" />
+    <Compile Include="Migrations\201408291011186_VersioningAndAudit.Designer.cs">
+      <DependentUpon>201408291011186_VersioningAndAudit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201408291029062_RemovedVersioningAndAuditFromValueObjects.cs" />
+    <Compile Include="Migrations\201408291029062_RemovedVersioningAndAuditFromValueObjects.Designer.cs">
+      <DependentUpon>201408291029062_RemovedVersioningAndAuditFromValueObjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201408291405330_RemovedVersioningAndAuditFromValueObjects2.cs" />
+    <Compile Include="Migrations\201408291405330_RemovedVersioningAndAuditFromValueObjects2.Designer.cs">
+      <DependentUpon>201408291405330_RemovedVersioningAndAuditFromValueObjects2.cs</DependentUpon>
+    </Compile>
     <Compile Include="UnitOfWork\Models\BusinessUnit.cs" />
     <Compile Include="UnitOfWork\Models\ClientApp.cs" />
     <Compile Include="UnitOfWork\Models\Contact.cs" />
@@ -114,6 +125,7 @@
     <Compile Include="UnitOfWork\SecurityUnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -137,7 +149,17 @@
     <EmbeddedResource Include="Migrations\201408281452112_InitialSecurityContext.resx">
       <DependentUpon>201408281452112_InitialSecurityContext.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201408291011186_VersioningAndAudit.resx">
+      <DependentUpon>201408291011186_VersioningAndAudit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201408291029062_RemovedVersioningAndAuditFromValueObjects.resx">
+      <DependentUpon>201408291029062_RemovedVersioningAndAuditFromValueObjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201408291405330_RemovedVersioningAndAuditFromValueObjects2.resx">
+      <DependentUpon>201408291405330_RemovedVersioningAndAuditFromValueObjects2.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

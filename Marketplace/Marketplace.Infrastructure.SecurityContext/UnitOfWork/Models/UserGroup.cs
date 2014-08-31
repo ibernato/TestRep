@@ -7,42 +7,27 @@ using Marketplace.Core.Logging;
 
 namespace Marketplace.Infrastructure.SecurityContext.Entities
 {
-    public partial class UserGroupModel
+    public class UserGroupModel : ICreatedAuditing, IModifiedAuditing, IVersioning, IObjectState
     {
-        #region Constructor
-
         public UserGroupModel()
         {
             Permissions = new HashSet<PermissionModel>();
             Users = new HashSet<UserModel>();
         }
 
-        #endregion
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public bool IsAdminGroup { get; set; }
 
-        #region Primitive Properties
 
-        public virtual Guid Id { get; set; }
+        public ICollection<PermissionModel> Permissions { get; set; }
+        public ICollection<UserModel> Users { get; set; }
 
-        public virtual string Name { get; set; }
 
-        public virtual string Description { get; set; }
-
-        public virtual bool IsAdminGroup { get; set; }
-
-        #endregion
-
-        #region Complex Properties
-
-        public virtual Auditing AuditInfo { get; set; }
-
-        #endregion
-
-        #region Navigation Properties
-
-        public virtual ICollection<PermissionModel> Permissions { get; set; }
-
-        public virtual ICollection<UserModel> Users { get; set; }
-
-        #endregion
+        public AuditingInfo Created { get; set; }
+        public AuditingInfo Modified { get; set; }
+        public ObjectState ObjectState { get; set; }
+        public Versioning Version { get; set; }
     }
 }

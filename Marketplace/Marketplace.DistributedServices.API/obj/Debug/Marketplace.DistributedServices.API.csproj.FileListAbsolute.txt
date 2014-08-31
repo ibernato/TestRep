@@ -67,6 +67,7 @@ D:\VS 2014\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Impor
 D:\VS 2014\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Infrastructure.Contracts.pdb
 D:\VS 2014\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Infrastructure.DAL.pdb
 D:\VS 2014\Marketplace\Marketplace.DistributedServices.API\bin\AutoMapper.Net4.dll
+<<<<<<< HEAD
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\AutoMapper.Net4.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.DistributedServices.API.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.DistributedServices.API.pdb
@@ -136,3 +137,75 @@ E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\A
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.DistributedServices.API\obj\Debug\Marketplace.DistributedServices.API.csprojResolveAssemblyReference.cache
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.DistributedServices.API\obj\Debug\Marketplace.DistributedServices.API.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.DistributedServices.API\obj\Debug\Marketplace.DistributedServices.API.pdb
+=======
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.DistributedServices.API.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.DistributedServices.API.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Antlr3.Runtime.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\EntityFramework.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\EntityFramework.SqlServer.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Application.Administrator.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Application.Administrator.DTO.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Core.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Domain.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Facade.Cache.CachingControl.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.ImportExportModule.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Infrastructure.Contracts.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Infrastructure.DAL.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Infrastructure.Repository.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Infrastructure.SecurityContext.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Security.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Newtonsoft.Json.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Composition.AttributedModel.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Composition.Convention.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Composition.Hosting.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Composition.Runtime.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Composition.TypedParts.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Net.Http.Formatting.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Helpers.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Http.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Http.WebHost.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Mvc.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Optimization.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Razor.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.WebPages.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\WebGrease.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\AutoMapper.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Application.Administrator.DTO.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Application.Administrator.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Core.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Domain.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Facade.Cache.CachingControl.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.ImportExportModule.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Infrastructure.Contracts.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Infrastructure.DAL.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Infrastructure.Repository.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Infrastructure.SecurityContext.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Marketplace.Security.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\EntityFramework.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\EntityFramework.SqlServer.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\Newtonsoft.Json.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Composition.AttributedModel.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Composition.Convention.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Composition.Hosting.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Composition.Runtime.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Composition.TypedParts.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Net.Http.Formatting.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Http.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Http.WebHost.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Helpers.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Mvc.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.Razor.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.WebPages.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\AutoMapper.xml
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\obj\Debug\Marketplace.DistributedServices.API.csprojResolveAssemblyReference.cache
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\obj\Debug\Marketplace.DistributedServices.API.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\obj\Debug\Marketplace.DistributedServices.API.pdb
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\RefactorThis.GraphDiff.dll
+C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.DistributedServices.API\bin\RefactorThis.GraphDiff.pdb
+>>>>>>> origin/Base

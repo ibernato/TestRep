@@ -102,15 +102,6 @@ namespace Marketplace.DistributedServices.API.Security
                 response.Headers.Add(AuthResponseHeader, authTypeString);
             }
 
-            // include token expiration into request header
-            if (authType == AuthenticationType.Repointer)
-            {
-                var tokenExpiration = authenticationService.GetUserTokenExpiration();
-                var serializedTokenExpiration = JsonConvert.SerializeObject(tokenExpiration,
-                        GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings);
-                response.Headers.Add(AuthResponseTokenExpiration, serializedTokenExpiration);
-            }
-
             return response;
         }
     }

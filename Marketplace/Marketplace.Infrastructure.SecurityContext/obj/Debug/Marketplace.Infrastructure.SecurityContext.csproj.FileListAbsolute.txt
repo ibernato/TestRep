@@ -1,45 +1,14 @@
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csprojResolveAssemblyReference.cache
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.pdb
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.SqlServer.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Core.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.Repository.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Security.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.AttributedModel.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Convention.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Hosting.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Runtime.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.TypedParts.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Core.pdb
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.Repository.pdb
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Security.pdb
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.xml
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.SqlServer.xml
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.AttributedModel.xml
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Convention.xml
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Hosting.xml
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Runtime.xml
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.TypedParts.xml
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.xml
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.pdb
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.Net4.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\GraphDiff.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.InitialSecurityContext.resources
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csproj.GenerateResource.Cache
-<<<<<<< HEAD
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.Net4.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.dll.config
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.pdb
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.SqlServer.dll
-E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\GraphDiff.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Core.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.Repository.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Security.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\RefactorThis.GraphDiff.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.AttributedModel.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Convention.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Hosting.dll
@@ -51,6 +20,7 @@ E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContex
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.xml
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.xml
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.SqlServer.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\RefactorThis.GraphDiff.pdb
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.AttributedModel.xml
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Convention.xml
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Hosting.xml
@@ -58,44 +28,9 @@ E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContex
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.TypedParts.xml
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csprojResolveAssemblyReference.cache
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.InitialSecurityContext.resources
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.VersioningAndAudit.resources
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.RemovedVersioningAndAuditFromValueObjects.resources
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.RemovedVersioningAndAuditFromValueObjects2.resources
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csproj.GenerateResource.Cache
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.pdb
-=======
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.Net4.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Core.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.Repository.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Security.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.AttributedModel.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Convention.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Hosting.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Runtime.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.TypedParts.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Core.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.Repository.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Security.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.AttributedModel.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Convention.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Hosting.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Runtime.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.TypedParts.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csprojResolveAssemblyReference.cache
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.InitialSecurityContext.resources
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csproj.GenerateResource.Cache
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.VersioningAndAudit.resources
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.RemovedVersioningAndAuditFromValueObjects.resources
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.dll.config
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\RefactorThis.GraphDiff.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\RefactorThis.GraphDiff.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.RemovedVersioningAndAuditFromValueObjects2.resources
->>>>>>> origin/Base

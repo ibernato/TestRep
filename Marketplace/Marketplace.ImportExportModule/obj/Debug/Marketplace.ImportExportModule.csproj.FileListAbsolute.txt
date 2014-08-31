@@ -6,3 +6,7 @@ C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Import
 C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.ImportExportModule\bin\Debug\Marketplace.ImportExportModule.pdb
 C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.ImportExportModule\obj\Debug\Marketplace.ImportExportModule.dll
 C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.ImportExportModule\obj\Debug\Marketplace.ImportExportModule.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.ImportExportModule\bin\Debug\Marketplace.ImportExportModule.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.ImportExportModule\bin\Debug\Marketplace.ImportExportModule.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.ImportExportModule\obj\Debug\Marketplace.ImportExportModule.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.ImportExportModule\obj\Debug\Marketplace.ImportExportModule.pdb

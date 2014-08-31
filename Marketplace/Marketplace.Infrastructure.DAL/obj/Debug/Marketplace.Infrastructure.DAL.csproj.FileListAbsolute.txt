@@ -1,8 +1,4 @@
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.DAL\bin\Debug\Marketplace.Infrastructure.DAL.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.DAL\bin\Debug\Marketplace.Infrastructure.DAL.pdb
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.DAL\obj\Debug\Marketplace.Infrastructure.DAL.dll
-D:\VS 2014\Marketplace\Marketplace.Infrastructure.DAL\obj\Debug\Marketplace.Infrastructure.DAL.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.DAL\bin\Debug\Marketplace.Infrastructure.DAL.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.DAL\bin\Debug\Marketplace.Infrastructure.DAL.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.DAL\obj\Debug\Marketplace.Infrastructure.DAL.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Infrastructure.DAL\obj\Debug\Marketplace.Infrastructure.DAL.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.DAL\bin\Debug\Marketplace.Infrastructure.DAL.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.DAL\bin\Debug\Marketplace.Infrastructure.DAL.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.DAL\obj\Debug\Marketplace.Infrastructure.DAL.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.DAL\obj\Debug\Marketplace.Infrastructure.DAL.pdb

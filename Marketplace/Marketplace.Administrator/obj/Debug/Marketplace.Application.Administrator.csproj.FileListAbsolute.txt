@@ -1,18 +1,3 @@
-D:\VS 2014\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.csprojResolveAssemblyReference.cache
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.dll
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.pdb
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.DTO.dll
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Domain.dll
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Core.dll
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.DTO.pdb
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Domain.pdb
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Core.pdb
-D:\VS 2014\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.dll
-D:\VS 2014\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.pdb
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\AutoMapper.Net4.dll
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\AutoMapper.dll
-D:\VS 2014\Marketplace\Marketplace.Administrator\bin\Debug\AutoMapper.xml
-<<<<<<< HEAD
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.pdb
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.DTO.dll
@@ -26,19 +11,3 @@ E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\AutoM
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.csprojResolveAssemblyReference.cache
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.pdb
-=======
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\AutoMapper.Net4.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.DTO.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Domain.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Core.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\AutoMapper.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Application.Administrator.DTO.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Domain.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\Marketplace.Core.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\bin\Debug\AutoMapper.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.csprojResolveAssemblyReference.cache
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Administrator\obj\Debug\Marketplace.Application.Administrator.pdb
->>>>>>> origin/Base

@@ -1,26 +1,7 @@
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\Marketplace.Core.dll
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\Marketplace.Core.pdb
-D:\VS 2014\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.dll
-D:\VS 2014\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.pdb
-D:\VS 2014\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.csprojResolveAssemblyReference.cache
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.AttributedModel.dll
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Convention.dll
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Hosting.dll
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Runtime.dll
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.TypedParts.dll
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.AttributedModel.xml
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Convention.xml
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Hosting.xml
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Runtime.xml
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.TypedParts.xml
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.Net4.dll
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.dll
-D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.xml
-<<<<<<< HEAD
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.Net4.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\Marketplace.Core.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\Marketplace.Core.pdb
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.dll
-E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.Net4.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.AttributedModel.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Convention.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Hosting.dll
@@ -35,23 +16,3 @@ E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composi
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.csprojResolveAssemblyReference.cache
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.dll
 E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.pdb
-=======
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.Net4.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\Marketplace.Core.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\Marketplace.Core.pdb
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.AttributedModel.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Convention.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Hosting.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Runtime.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.TypedParts.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.AttributedModel.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Convention.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Hosting.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Runtime.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.TypedParts.xml
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.csprojResolveAssemblyReference.cache
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.dll
-C:\Users\ivan.bernatovic\Documents\GitHub\TestRep\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.pdb
->>>>>>> origin/Base

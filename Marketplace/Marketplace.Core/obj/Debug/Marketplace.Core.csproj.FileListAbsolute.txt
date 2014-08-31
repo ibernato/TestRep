@@ -16,3 +16,21 @@ D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\System.Composition.TypedParts.
 D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.Net4.dll
 D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.dll
 D:\VS 2014\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\Marketplace.Core.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\Marketplace.Core.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.Net4.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.AttributedModel.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Convention.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Hosting.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Runtime.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.TypedParts.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\AutoMapper.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.AttributedModel.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Convention.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Hosting.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.Runtime.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\bin\Debug\System.Composition.TypedParts.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.csprojResolveAssemblyReference.cache
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Core\obj\Debug\Marketplace.Core.pdb

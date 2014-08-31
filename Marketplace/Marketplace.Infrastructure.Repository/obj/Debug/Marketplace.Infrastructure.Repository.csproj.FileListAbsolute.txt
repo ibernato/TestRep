@@ -26,3 +26,31 @@ D:\VS 2014\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Co
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Hosting.xml
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Runtime.xml
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.TypedParts.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Infrastructure.Repository.dll.config
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Infrastructure.Repository.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Infrastructure.Repository.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\EntityFramework.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Core.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Domain.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Security.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.AttributedModel.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Convention.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Hosting.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Runtime.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.TypedParts.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\AutoMapper.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Core.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Domain.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\Marketplace.Security.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\EntityFramework.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.AttributedModel.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Convention.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Hosting.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.Runtime.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\System.Composition.TypedParts.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\bin\Debug\AutoMapper.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\obj\Debug\Marketplace.Infrastructure.Repository.csprojResolveAssemblyReference.cache
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\obj\Debug\Marketplace.Infrastructure.Repository.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.Repository\obj\Debug\Marketplace.Infrastructure.Repository.pdb

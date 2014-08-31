@@ -17,3 +17,22 @@ D:\VS 2014\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Runtime
 D:\VS 2014\Marketplace\Marketplace.Security\bin\Debug\System.Composition.TypedParts.xml
 D:\VS 2014\Marketplace\Marketplace.Security\bin\Debug\AutoMapper.dll
 D:\VS 2014\Marketplace\Marketplace.Security\bin\Debug\AutoMapper.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\Marketplace.Security.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\Marketplace.Security.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\Marketplace.Core.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.AttributedModel.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Convention.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Hosting.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Runtime.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.TypedParts.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\AutoMapper.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\Marketplace.Core.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.AttributedModel.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Convention.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Hosting.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.Runtime.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\System.Composition.TypedParts.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\bin\Debug\AutoMapper.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\obj\Debug\Marketplace.Security.csprojResolveAssemblyReference.cache
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\obj\Debug\Marketplace.Security.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Security\obj\Debug\Marketplace.Security.pdb

@@ -29,3 +29,34 @@ D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Auto
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\GraphDiff.dll
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.InitialSecurityContext.resources
 D:\VS 2014\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csproj.GenerateResource.Cache
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.Net4.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.SecurityContext.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.SqlServer.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\GraphDiff.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Core.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.Repository.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Security.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.AttributedModel.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Convention.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Hosting.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Runtime.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.TypedParts.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Core.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Infrastructure.Repository.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\Marketplace.Security.pdb
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\AutoMapper.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\EntityFramework.SqlServer.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.AttributedModel.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Convention.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Hosting.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.Runtime.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\bin\Debug\System.Composition.TypedParts.xml
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csprojResolveAssemblyReference.cache
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.Migrations.InitialSecurityContext.resources
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.csproj.GenerateResource.Cache
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.dll
+E:\VS 2014 TestRep\TestRep\Marketplace\Marketplace.Infrastructure.SecurityContext\obj\Debug\Marketplace.Infrastructure.SecurityContext.pdb
